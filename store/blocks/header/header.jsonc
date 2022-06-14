@@ -7,6 +7,7 @@
   },
   "header-layout.desktop": {
     "children": [
+      "flex-layout.row#top-bar",
       "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
@@ -22,14 +23,21 @@
   },
 
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
+    "children": ["notification.bar#home",
+      "notification.bar#home2"],
+    
     "props": {
       "fullWidth": "true"
     }
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "Logo"
+    }
+  },
+  "notification.bar#home2": {
+    "props": {
+      "content": "Teste"
     }
   },
   "flex-layout.row#3-desktop": {

@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#top-bar":{
+        "props":{
+            "blockClass": "wrapper_top-bar"
+        },
+        "children":[
+            "rich-text#logo-text",
+            "rich-text#input-text",
+            "rich-text#tel-text",
+            "rich-text#kart-text"
+        ]
+    },
+
+    "rich-text#logo-text":{
+        "props":{
+            "blockClass":["text__top-bar", "logo__top-bar"],
+            "text":" ![logo](assets/imgs/logoVetie.png)"
+        }
+    },
+
+    "rich-text#input-text":{
+        "props":{
+            "blockClass":["text__top-bar", "input__top-bar"],
+            "text":" ![input](assets/imgs/iconSearch.png)  Digite aqui"
+        }
+    },
+
+    "rich-text#tel-text":{
+        "props":{
+            "blockClass":["text__top-bar", "tel__top-bar"],
+            "text":" ![login](assets/imgs/usuario.svg)  Entre ou crie sua conta"
+        }
+    },
+
+    "rich-text#kart-text":{
+        "props":{
+            "blockClass":["text__top-bar", "kart__top-bar"],
+            "text":" ![carrinho](assets/imgs/carrinho.svg)  Meu carrinho"
+        }
+    }
+}

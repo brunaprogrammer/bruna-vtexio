@@ -2,7 +2,11 @@
   "vtex.menu@2.x:menu#websites": {
     "children": [
       "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#about-us",
+      "menu-item#higiene",
+      "menu-item#pecuaria",
+      "menu-item#casa",
+      "menu-item#marcas"
     ]
   },
   "menu-item#shop": {
@@ -15,8 +19,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "Farmácia",
+        "text": "Farmácia"
       }
     }
   },
@@ -33,11 +37,72 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "",
         "noFollow": false,
         "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "text": ""
+      }
+    }
+  },
+  "menu-item#higiene": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Higiene e Beleza",
+        "text": "Higiene e Beleza"
+      }
+    }
+  },
+  "menu-item#pecuaria": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pecuária",
+        "text": "Pecuária"
+      }
+    }
+  },
+  "menu-item#casa": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Casa e Jardim",
+        "text": "Casa e Jardim"
+      }
+    }
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
       }
     }
   }
+  
 }
