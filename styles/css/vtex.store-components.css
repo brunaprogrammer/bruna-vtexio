@@ -111,3 +111,8 @@
   font-weight: bold;
   font-size: 30px;
 }
+
+.searchBarContainer
+:global(.vtex-styleguide-9-x-input){
+  width: 600px !important;
+}

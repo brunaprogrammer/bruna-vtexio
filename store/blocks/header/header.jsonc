@@ -23,8 +23,7 @@
   },
 
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home",
-      "notification.bar#home2"],
+    "children": [],
     
     "props": {
       "fullWidth": "true"
@@ -75,35 +74,10 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+     
     ]
   },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo#desktop"]
-  },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
-  },
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
-    }
-  },
+  
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },

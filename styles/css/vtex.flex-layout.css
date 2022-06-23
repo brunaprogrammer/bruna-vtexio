@@ -19,10 +19,13 @@
 .flexRowContent--menu-link {
   background-color: #51BAAD;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #fff;
+  display: none;
 }
 
 .flexRowContent--main-header-mobile {
@@ -42,7 +45,7 @@
   font-size: 14px;
 }
 .flexRow--deals {
-  background-color: #a7afbd;
+  background-color: #fff;
   padding: 14px 0px;
 }
 
@@ -92,4 +95,8 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexCol{
+  display: none;
 }

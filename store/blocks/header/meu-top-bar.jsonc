@@ -5,8 +5,10 @@
         },
         "children":[
             "rich-text#logo-text",
-            "rich-text#input-text",
+            "search-bar",
+            "login",
             "rich-text#tel-text",
+            "minicart.v2",
             "rich-text#kart-text"
         ]
     },
@@ -17,25 +19,18 @@
             "text":" ![logo](assets/imgs/logoVetie.png)"
         }
     },
-
-    "rich-text#input-text":{
-        "props":{
-            "blockClass":["text__top-bar", "input__top-bar"],
-            "text":" ![input](assets/imgs/iconSearch.png)  Digite aqui"
-        }
-    },
-
+   
     "rich-text#tel-text":{
         "props":{
             "blockClass":["text__top-bar", "tel__top-bar"],
-            "text":" ![login](assets/imgs/usuario.svg)  Entre ou crie sua conta"
+            "text":" ![login](assets/imgs/usuario.svg)  Entre ou <br>crie sua conta"
         }
     },
 
     "rich-text#kart-text":{
         "props":{
             "blockClass":["text__top-bar", "kart__top-bar"],
-            "text":" ![carrinho](assets/imgs/carrinho.svg)  Meu carrinho"
+            "text":" ![carrinho](assets/imgs/carrinho.svg)  Meu <br>carrinho"
         }
     }
 }
