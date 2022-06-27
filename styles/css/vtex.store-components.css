@@ -116,3 +116,8 @@
 :global(.vtex-styleguide-9-x-input){
   width: 600px !important;
 }
+
+.imageElement{
+  max-height: 100% !important;
+}
+

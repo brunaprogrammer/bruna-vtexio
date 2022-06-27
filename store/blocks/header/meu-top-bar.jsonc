@@ -6,9 +6,8 @@
         "children":[
             "rich-text#logo-text",
             "search-bar",
-            "login",
-            "rich-text#tel-text",
-            "minicart.v2",
+            "login#login-button",
+            "minicart.v2#teste",
             "rich-text#kart-text"
         ]
     },
@@ -20,17 +19,19 @@
         }
     },
    
-    "rich-text#tel-text":{
-        "props":{
-            "blockClass":["text__top-bar", "tel__top-bar"],
-            "text":" ![login](assets/imgs/usuario.svg)  Entre ou <br>crie sua conta"
-        }
-    },
-
     "rich-text#kart-text":{
         "props":{
             "blockClass":["text__top-bar", "kart__top-bar"],
             "text":" ![carrinho](assets/imgs/carrinho.svg)  Meu <br>carrinho"
         }
-    }
+    },
+
+    "login#login-button": {
+        "props": {
+          "showIconProfile": false,
+          "logInButtonBehavior": "link",
+          "iconLabel": "Entre ou \n crie sua conta",
+          "accountOptionsButtonBehavior": "link"
+        }
+      }
 }

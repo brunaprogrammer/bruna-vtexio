@@ -19,13 +19,13 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "assets/imgs/tarja-image1.webp",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "Produtos Veterinários \n e PetShop",
       "blockClass": "deals"
     }
   },
@@ -37,13 +37,13 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
+      "src": "assets/imgs/tarja-image2.webp",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "Compre com Segurança",
       "blockClass": "deals"
     }
   },
@@ -55,13 +55,13 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
+      "src": "assets/imgs/tarja-image3.webp",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "Frete Rápido",
       "blockClass": "deals"
     }
   },
@@ -73,13 +73,13 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
+      "src": "assets/imgs/tarja-image4.webp",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "Condições Especiais para \n Empresas",
       "blockClass": "deals"
     }
   }

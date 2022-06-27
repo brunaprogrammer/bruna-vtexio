@@ -2,16 +2,22 @@
   "add-to-cart-button": {
     "props": {
       "addToCartFeedback": "customEvent",
-      "customPixelEventId": "add-to-cart-button",
-      "text":"Meu carrinho"
+      "customPixelEventId": "add-to-cart-button"
     }
   },
 
-  "minicart.v2": {
+  "minicart.v2#teste": {
     "props": {
       "customPixelEventId": "add-to-cart-button",
-      "text":"Meu carrinho"
+      "iconLabel": "Entre ou \n crie sua conta"
     },
     "children": ["minicart-base-content"]
+  },
+
+  "minicart-base-content": {
+    "props": {
+      "iconLabel": "Entre ou \n crie sua conta"
+    }
   }
+
 }

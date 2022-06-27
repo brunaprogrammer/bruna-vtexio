@@ -1,0 +1,18 @@
+.label{
+    text-transform: none;
+    color:#51BAAD;
+    font-size: 15px;
+    line-height: 1.3em;
+    display: flex;
+    gap: 5px;
+}
+
+.label::before{
+    content: url("assets/imgs/usuario.svg");
+}
+
+.profileIcon{
+    color: orange;
+    width: 30px;
+    height: 30px;
+}

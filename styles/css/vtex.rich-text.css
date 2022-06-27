@@ -89,18 +89,10 @@
   }
 }
 
-
 .image--logo__top-bar{
   width: 233px;
 }
 
-.paragraph--tel__top-bar,
-.paragraph--kart__top-bar{
-  color:#51BAAD;
-  font-size: 15px;
-  display: flex;
-  gap: 5px;
-}
 
 .container{
   justify-content: center;
@@ -108,5 +100,11 @@
 
 .paragraph--deals{
   color: #51BAAD;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 65px;
+  display: flex;
+  align-items: center;
 }
 
