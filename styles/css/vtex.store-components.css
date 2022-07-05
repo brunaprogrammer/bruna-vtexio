@@ -113,11 +113,17 @@
 }
 
 .searchBarContainer
-:global(.vtex-styleguide-9-x-input){
-  width: 600px !important;
+{
+  
+  align-self: center;
 }
 
 .imageElement{
   max-height: 100% !important;
+}
+
+
+ .searchBarContainer{
+  width: 600px!important;
 }
 

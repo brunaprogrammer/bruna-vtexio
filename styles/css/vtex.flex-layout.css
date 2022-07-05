@@ -23,6 +23,10 @@
   justify-content: center;
 }
 
+.flexRowContent--menu-link .flex-grow-1{
+  display: none;
+}
+
 .flexRowContent--main-header {
   background-color: #fff;
   display: none;
@@ -46,7 +50,9 @@
 }
 .flexRow--deals {
   background-color: #fff;
-  padding: 14px 0px;
+  padding: 44px 0 0 0;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -109,4 +115,18 @@
   max-height: 100% !important;
   height: 65px;
 }
+
+.flexRow .container{
+  display: flex;
+  align-items: center;
+}
+
+.justify-start{
+  align-items: center !important;
+}
+
+.flexRow--wrapper_top-bar .stretchChildrenWidth{
+  width: 50% !important;
+}
+
 
