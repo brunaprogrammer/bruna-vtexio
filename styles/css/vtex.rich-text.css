@@ -5,9 +5,16 @@
 }
 
 .container--shelfTitle {
-  color: #727273;
-  justify-content: center;
-  text-align: center;
+  text-align: left;
+  color:#51BAAD;
+  font-size: 30px;
+  max-width: 1300px;
+  margin: 30px auto;
+  justify-content: start !important;
+}
+
+.paragraph--shelfTitle{
+  border-bottom: 2px solid #F18318;
 }
 
 .headingLevel2--shelfTitle {
@@ -106,5 +113,10 @@
   height: 65px;
   display: flex;
   align-items: center;
+  text-align: start;
+}
+
+.items-stretch{
+  align-items: center !important;
 }
 

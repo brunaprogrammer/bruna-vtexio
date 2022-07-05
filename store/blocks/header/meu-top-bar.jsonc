@@ -7,8 +7,7 @@
             "rich-text#logo-text",
             "search-bar",
             "login#login-button",
-            "minicart.v2#teste",
-            "rich-text#kart-text"
+            "minicart.v2#teste"
         ]
     },
 
@@ -18,14 +17,7 @@
             "text":" ![logo](assets/imgs/logoVetie.png)"
         }
     },
-   
-    "rich-text#kart-text":{
-        "props":{
-            "blockClass":["text__top-bar", "kart__top-bar"],
-            "text":" ![carrinho](assets/imgs/carrinho.svg)  Meu <br>carrinho"
-        }
-    },
-
+  
     "login#login-button": {
         "props": {
           "showIconProfile": false,
