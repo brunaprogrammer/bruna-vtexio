@@ -1,5 +1,5 @@
 {
-  ".shelf#listLayout": {
+  "product-summary.shelf#listLayout": {
     "props": {
       "blockClass": "listLayout"
     },

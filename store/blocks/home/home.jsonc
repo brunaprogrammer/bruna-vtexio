@@ -54,7 +54,7 @@
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
-    "blocks": [".shelf"],
+    "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
@@ -83,7 +83,8 @@
       "callToActionText": "Ler mais",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "textAlignment": "center",
+      "subhead": "A Vetie é uma empresa que já nasceu grande, fruto de quase 25 anos de experiência na distribuição de produtos veterinários, representando e comercializando as maiores indústrias do mercado."
     }
   },
 
